@@ -1,11 +1,28 @@
-h1{
-    font-size: 30px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: red;
+body {
+    background-image: url(https://pichastock.com/wp-content/uploads/2018/08/PICHA_PHOT01186-6126__OBE_153.jpg);
+    color: white;
+
 }
-h2{
-    font-size: 15px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: blue;
-    
+h1 {
+    font-family: fantasy;
+    color: midnightblue;
+    font-size: larger;
 }
+h2 {
+    font-family: inherit;
+    color: midnightblue; 
+    font-size: larger;
+}
+h3 {
+    font-family: cursive;
+    color: darkgreen; 
+    font-size: larger;
+}
+.sidebar{
+    width: 35%;
+    text-align: left;
+    float: right;
+    padding-right: 15px;
+    padding-left: 10px;
+}
+@media ()
