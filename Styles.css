@@ -1,28 +1,74 @@
 body {
     background-image: url(https://pichastock.com/wp-content/uploads/2018/08/PICHA_PHOT01186-6126__OBE_153.jpg);
-    color: white;
+    color: gainsboro;
+    margin: 0;
+    font-family: cursive;
+    font-size: large;
+    font-weight: 800;
+    text-align: center;
 
 }
 h1 {
     font-family: fantasy;
     color: midnightblue;
-    font-size: larger;
+    font-size: 2rem;
+    font-weight: 200;
+    line-height: 3;
 }
 h2 {
-    font-family: inherit;
+    font-family: cursive;
     color: midnightblue; 
     font-size: larger;
+    text-align: center;
 }
 h3 {
     font-family: cursive;
     color: darkgreen; 
+    font-size: large;
+    text-align: center;
+}
+.jumbotron {
+    margin: 0.5rem;
+    text-align: center;
+    border-radius: 10px;
+    height: 12pc;
+    padding: 5pt;
+    color: green;
+}
+.card{
+    box-shadow: 0 4px 80px rgba (0,0,0,0.2);
+    transition: 0.35s;
+    width: 52%;
+    height: 10pc;
+    float: left;
+    border-radius: 10px;
+    margin: 0.5rem;
+    text-align: center;
+}
+.test-box{
+    color: lavenderblush;
     font-size: larger;
+}   
+.col-md-10 {
+    color: royalblue;
+    -webkit-column-gap: 10pc;
+    column-gap: 54, 17;
 }
-.sidebar{
-    width: 35%;
-    text-align: left;
-    float: right;
-    padding-right: 15px;
-    padding-left: 10px;
+.radio{
+    size: 80px;
+    text-indent: 20px;
+    font-size: larger;
+    color: white;
+    background-clip: padding-box;
 }
-@media ()
+#Male{
+    color: midnightblue;
+}
+#Female{
+    color: red;
+}
+.container{
+    font-size: larger;
+    color: honeydew;
+    column-gap: 10px;
+}
